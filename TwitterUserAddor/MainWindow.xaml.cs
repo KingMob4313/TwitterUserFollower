@@ -15,12 +15,9 @@ namespace TwitterUserAddor
         TwitterFollowingRecord currentRecord = null;
         List<TwitterFollowingRecord> thisTFR = null;
 
-
         public MainWindow()
         {
             InitializeComponent();
-            //List<TwitterFollowingRecord> twitterFollowingRecordList = new List<TwitterFollowingRecord>();
-            //TwitterFollowingRecord twitterFollowingRecord = new TwitterFollowingRecord();
 
             thisTFR = readJsonFile("following.js");
             currentRecord = thisTFR[currentIndex];
